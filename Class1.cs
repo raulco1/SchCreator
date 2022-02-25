@@ -15,6 +15,7 @@ namespace SchCreator
         //built in parameters fields to add in schedule
         BuiltInParameter[] BiParams = new BuiltInParameter[] { BuiltInParameter.ELEM_FAMILY_AND_TYPE_PARAM,
             BuiltInParameter.WALL_BASE_CONSTRAINT, BuiltInParameter.HOST_AREA_COMPUTED, BuiltInParameter.CURVE_ELEM_LENGTH};
+
         public Result Execute(ExternalCommandData edata, ref string message, ElementSet elements)
         {
             //UI Document 
